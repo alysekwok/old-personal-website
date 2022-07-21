@@ -1,16 +1,21 @@
 import React from 'react';
-import { BrowserRouter as Router } from "react-router-dom";
-import Home from "./components/Home"
-import NavBar from "./components/NavBar"
+import AppRouter from "./components/AppRouter"
+
+
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <NavBar/>
-        <Home/>
-        </Router>
+    <div>
+      <ul>
+      <li><a href="http://localhost:3000/personal-website/portfolio">PORTFOLIO</a></li>
+      <li><a href="http://localhost:3000/personal-website/">HOME</a></li>
+      </ul>
+      
+      <AppRouter />
+      
     </div>
+    
+     
   );
 }
 

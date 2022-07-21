@@ -11,15 +11,16 @@ const Home = () => {
     return (
         <div class = "home-page">
             <div class = "home-header">
-            <div ><img src = {star} height = "100" alt = "star gif" /></div>
-                <div><h1 id = "name-header"> alyse kwok </h1></div>
-            <div ><img src = {star} height = "100" alt = "star gif" /></div>
-            </div>
-            <div>
+            {/* <div ><img src = {star} height = "100" alt = "star gif" /></div> */}
+                <div><p id = "name-header"> ALYSE </p></div>
+                <div><p id = "name-header"> KWOK </p></div>
+                {/* <div ><img src = {star} height = "100" alt = "star gif" /></div> */}
+                <div>
                 <p id = "tagline">
-                    computer science student in atlanta, georgia
+                DEVELOPER & STUDENT IN ATLANTA, GA
                 </p>
             </div>
+
             <div class = "logos">
                 <a href="https://www.linkedin.com/in/alysekwok/"> <img src = {linkedin} height = "50" alt = "linkedin link" /></a>
                 <a href="https://www.instagram.com/alysekwok/"><img src = {instagram} height = "50" alt = "instagram link" /></a>
@@ -29,8 +30,14 @@ const Home = () => {
             <img src = {sketch}  height = "500" width = "700" alt = "github link" /> 
             </div>
 
+            </div>
+
+            
+            
+           
+
             <div class = "introduction">
-                <h2 id = "intro-header">a little more about me...</h2>
+                <h2 id = "intro-header">A little more about me...</h2>
                 <div class = "intro-body">
                     <div>
                     <p class = "intro-paragraph">
